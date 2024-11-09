@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-sans-400 {
+                font-family: "Noto Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-variation-settings:
+                        "wdth" 100;
+            }
+
+html, body {
+    background-color: #fcf6f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: white;
+    margin: 40px 0;
+    width: 85vw;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+}
+
+div.productBox {
+    background-color: white;
+    margin: 40px 40px;
+    width: 20vw;
+    height: fit-content;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px 30px;
+}
+
+div.productBox > h2 {
+    float: left;
+}
+
+div.productBox > h2.price {
+    float: right;
+}
+
+div.productBox > p {
+    clear: both;
+    height: fit-content;
+    width: fit-content;
+    background-color: #25D366;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+p>a{
+    color: white;
+    text-decoration: none;
+}
+
+div.imageBox {
+    margin: .5vw 0;
+    width: 20vw;
+    height: 20vw;
+}
+
+.blueOcto {
+    background: url("../media/pocketOcto/blue.jpg") no-repeat center;
+    background-size: cover;
+}
+.pinkOcto {
+    background: url("../media/pocketOcto/blue.jpg") no-repeat center;
+    background-size: cover;
+}
+
